@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=document.createElement("div");t.setAttribute("id","nav-bar"),t.innerHTML='\n<button id="home">Home</button>\n<button id="menu">Menu</button>\n<button id="contact">Contact</button>\n',document.querySelector("#content").prepend(t)})();
