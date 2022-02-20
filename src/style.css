@@ -1,0 +1,10 @@
+body {
+  background-image: url(./assets/hive.png);
+}
+#nav-bar {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px;
+  background: #ffde73;
+}
