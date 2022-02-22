@@ -1,9 +1,12 @@
-const navbar = document.createElement("div");
-navbar.setAttribute("id", "nav-bar");
-navbar.innerHTML = `
-<button id="home">Home</button>
-<button id="menu">Menu</button>
-<button id="contact">Contact</button>
+function navbar() {
+  const navbar = document.createElement("div");
+  navbar.setAttribute("id", "nav-bar");
+  navbar.innerHTML = `
+<button id="homebtn">Home</button>
+<button id="menubtn">Menu</button>
+<button id="contactbtn">Contact</button>
 `;
+  content.prepend(navbar);
+}
 
 export { navbar };
