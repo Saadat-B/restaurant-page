@@ -1,0 +1,14 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+body {
+  background-image: url(0ee069ca56012f433906.png);
+}
+#nav-bar {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 15px;
+  background: #ffde73;
+}
+

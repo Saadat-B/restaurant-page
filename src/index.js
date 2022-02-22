@@ -1,10 +1,13 @@
+import { content1 } from "./content";
 import { navbar } from "./navbar";
 import { home } from "./home";
 import { menu } from "./menu";
 import { contact } from "./contact";
-
+import "./style.css";
+content1();
 const content = document.querySelector("#content");
 navbar();
+
 const homebtn = document.querySelector("#homebtn");
 const menubtn = document.querySelector("#menubtn");
 const contactbtn = document.querySelector("#contactbtn");
